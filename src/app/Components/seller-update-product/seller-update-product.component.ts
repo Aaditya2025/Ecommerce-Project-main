@@ -36,6 +36,6 @@ export class SellerUpdateProductComponent implements OnInit{
     setTimeout(() => {
       this.productMessage = undefined;
       this.router.navigate(['seller-home'])
-    }, 2000);
+    }, 3000);
   }
 }
