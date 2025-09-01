@@ -44,7 +44,6 @@ export class NavbarComponent implements OnInit {
       if (element.value.trim().length > 0) {
         this.prodService.findProducts(element.value).subscribe(res => {
           console.warn(res);
-          
         });
       }
 

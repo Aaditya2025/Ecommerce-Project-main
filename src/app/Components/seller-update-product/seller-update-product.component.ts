@@ -30,7 +30,7 @@ export class SellerUpdateProductComponent implements OnInit{
     console.warn(data, id);
     this.updateProduct.updateProd(data).subscribe((res) => {
       if(res){
-        this.productMessage = "Product has updated!";
+        this.productMessage = "Product has Updated!";
       }
     });
     setTimeout(() => {
