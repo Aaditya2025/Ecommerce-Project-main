@@ -23,7 +23,9 @@ export class HomeComponent implements OnInit {
     })
   }
 
-  viewDetails(item:product){}
+  viewDetails(item:product){
+    console.log(item);
+  }
 
   addToCart(item:product){}
 }
